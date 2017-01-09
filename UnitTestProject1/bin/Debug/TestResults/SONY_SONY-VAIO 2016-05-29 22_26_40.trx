@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8a231acf-90d5-444a-89a5-1ae9170e2084" name="SONY@SONY-VAIO 2016-05-29 22:26:40" runUser="SONY-VAIO\SONY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7bba1ff7-32fa-448d-9af8-f46a9ddf545b">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="SONY_SONY-VAIO 2016-05-29 22_26_40" />
+  </TestSettings>
+  <Times creation="2016-05-29T22:26:40.6091999+05:30" queuing="2016-05-29T22:26:44.6874332+05:30" start="2016-05-29T22:26:45.4054742+05:30" finish="2016-05-29T22:26:49.6137149+05:30" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="3" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SONY-VAIO" outcome="Warning" timestamp="2016-05-29T22:26:44.4874217+05:30">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'C:\Users\SONY\Documents\Visual Studio 2012\Projects\Mvc_POC\UnitTestProject1\bin\Debug\unittestproject1.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddNewEmployee" storage="unittestproject1.dll" id="2f69fce4-5948-7643-1c73-0b7a042147ab">
+      <Execution id="53254e3b-a5ba-41f6-baca-006a39fda247" />
+      <TestMethod codeBase="C:/Users/SONY/Documents/Visual Studio 2012/Projects/Mvc_POC/UnitTestProject1/bin/Debug/UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject1.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddNewEmployee" />
+    </UnitTest>
+    <UnitTest name="Employee_Get_All" storage="unittestproject1.dll" id="66ad3566-a211-db90-e2c5-398ca4424d96">
+      <Execution id="816a5bee-ad05-424c-ab0d-14c5f1846595" />
+      <TestMethod codeBase="C:/Users/SONY/Documents/Visual Studio 2012/Projects/Mvc_POC/UnitTestProject1/bin/Debug/UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject1.ControllerTesting, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Employee_Get_All" />
+    </UnitTest>
+    <UnitTest name="TestGetAllMethod" storage="unittestproject1.dll" id="179dccdd-0f40-ea05-1d10-2bf357207c8d">
+      <Execution id="4113705c-935c-4d77-bc7f-da8f94d0d074" />
+      <TestMethod codeBase="C:/Users/SONY/Documents/Visual Studio 2012/Projects/Mvc_POC/UnitTestProject1/bin/Debug/UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject1.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetAllMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="66ad3566-a211-db90-e2c5-398ca4424d96" executionId="816a5bee-ad05-424c-ab0d-14c5f1846595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f69fce4-5948-7643-1c73-0b7a042147ab" executionId="53254e3b-a5ba-41f6-baca-006a39fda247" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="179dccdd-0f40-ea05-1d10-2bf357207c8d" executionId="4113705c-935c-4d77-bc7f-da8f94d0d074" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="816a5bee-ad05-424c-ab0d-14c5f1846595" testId="66ad3566-a211-db90-e2c5-398ca4424d96" testName="Employee_Get_All" computerName="SONY-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="816a5bee-ad05-424c-ab0d-14c5f1846595">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: Illegal use of attribute on UnitTestProject1.ControllerTesting.Employee_Get_All. The TestMethodAttribute can be defined only inside a class marked with the TestClass attribute.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53254e3b-a5ba-41f6-baca-006a39fda247" testId="2f69fce4-5948-7643-1c73-0b7a042147ab" testName="AddNewEmployee" computerName="SONY-VAIO" duration="00:00:00.7518586" startTime="2016-05-29T22:26:45.8074972+05:30" endTime="2016-05-29T22:26:49.0316817+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53254e3b-a5ba-41f6-baca-006a39fda247">
+    </UnitTestResult>
+    <UnitTestResult executionId="4113705c-935c-4d77-bc7f-da8f94d0d074" testId="179dccdd-0f40-ea05-1d10-2bf357207c8d" testName="TestGetAllMethod" computerName="SONY-VAIO" duration="00:00:00.1276873" startTime="2016-05-29T22:26:49.1476883+05:30" endTime="2016-05-29T22:26:49.2906965+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4113705c-935c-4d77-bc7f-da8f94d0d074">
+    </UnitTestResult>
+  </Results>
+</TestRun>

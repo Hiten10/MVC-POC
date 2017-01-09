@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MVCModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MVCModelStoreContainer">
+    <EntitySet Name="Employe" EntityType="MVCModel.Store.Employe" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Employe">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="20" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Designation" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Salary" Type="money" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Mobile" Type="char" MaxLength="10" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Gender" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+</Schema>

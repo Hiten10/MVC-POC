@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Mvc_POC.Models.Employee>
+
+@{
+    ViewBag.Title = "Employes";
+}
+
+<h2>Employes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+           Full Name
+        </th>       
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department)
+        </th>
+        @*<th></th>*@
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.FirstName &nbsp; @item.LastName
+            @*@Html.DisplayFor(modelItem => item.FirstName + " " + item.LastName)*@
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department)
+        </td>
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EmployeeID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EmployeeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EmployeeID })
+        </td>*@
+    </tr>
+}
+
+</table>
